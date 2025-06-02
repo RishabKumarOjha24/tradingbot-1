@@ -1,2 +1,16 @@
+# Step 1: Create folder and navigate in
 mkdir tradingbot-1
 cd tradingbot-1
+
+# Step 2: Create files
+touch main.py requirements.txt start.sh README.md
+
+# Step 3: Initialize git and commit
+git init
+git add .
+git commit -m "Initial commit for trading bot"
+
+# Step 4: Connect and push to GitHub
+git remote add origin https://github.com/RishabKumarOjha24/tradingbot-1.git
+git branch -M main
+git push -u origin main
